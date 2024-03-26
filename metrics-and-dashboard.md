@@ -11,7 +11,7 @@ Step 4. `curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/ma
 
 // there is no progress bar so just give it some time, it will install.
 
-Step 5. `kustomize build https://github.com/kyverno/policies/pod-security | kubectl apply -f `
+Step 5. `./kustomize build https://github.com/kyverno/policies/pod-security | kubectl apply -f -`
 
 // 
 
