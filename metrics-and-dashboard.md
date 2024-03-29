@@ -33,4 +33,10 @@ helm install kyverno kyverno/kyverno \
 ```
 
 
-Step 3. 
+Step 3. `kubectl apply -k github.com/kyverno/grafana-dashboard/examples/prometheus`
+
+Step 4. `minikube ip`
+
+Step 5. `minikube service prometheus-server -n kyverno`
+
+Step 6. Then continue using Nirmata docs
