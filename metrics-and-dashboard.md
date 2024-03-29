@@ -19,3 +19,18 @@ Step 5. `./kustomize build https://github.com/kyverno/policies/pod-security | ku
 Step 6. 
 
 
+## For setting up Kyverno Dashboard:
+
+Step 1. `kubectl create namespace kyverno`
+
+Step 2. 
+```
+helm install kyverno kyverno/kyverno \
+--namespace kyverno \
+--create-namespace \
+--set metricsService.type=NodePort \
+--set metricsService.nodePort=30539
+```
+
+
+Step 3. 
