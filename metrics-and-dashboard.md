@@ -41,7 +41,7 @@ Step 5. `minikube service prometheus-server -n kyverno`
 
 Step 6. Then continue using Nirmata docs
 
-## For setting it up in the github codespace
+## For setting Promethues in the github codespace
 
 Step 1. `make kind-deploy-kyverno`
 
