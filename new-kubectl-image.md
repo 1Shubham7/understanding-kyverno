@@ -5,3 +5,5 @@ Distroless is a set of Docker images maintained by Google. These images are desi
 it is without any unnecessary packages or utilities found in traditional Linux distributions like Debian or Alpine.
 
 Examples: there are distroless images for python, node.js, java, etc.
+
+// Distroless = "distribution" + "less."
