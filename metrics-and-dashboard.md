@@ -43,10 +43,12 @@ Step 6. Then continue using Nirmata docs
 
 ## For setting Promethues in the github codespace
 
-Step 1. `make kind-deploy-kyverno`
+Step 1. `make kind-create-cluster`
 
-Step 2. `kubectl apply -k github.com/kyverno/grafana-dashboard/examples/prometheus`
+Step 2. `make kind-deploy-kyverno`
 
-Step 3. `kubectl port-forward service/prometheus-server -n kyverno 9090:9090`
+Step 3. `kubectl apply -k github.com/kyverno/grafana-dashboard/examples/prometheus`
+
+Step 4. `kubectl port-forward service/prometheus-server -n kyverno 9090:9090`
 
 And you will have your promethues server running at localhost:9090
