@@ -49,6 +49,11 @@ Step 2. `make kind-deploy-kyverno`
 
 Step 3. `kubectl apply -k github.com/kyverno/grafana-dashboard/examples/prometheus`
 
-Step 4. `kubectl port-forward service/prometheus-server -n kyverno 9090:9090`
+Step 4. `kubectl patch -n kyverno service kyverno-svc-metrics -p '{"spec":{"type":"NodePort","ports":[{"port":8000,"nodePort
+":30539}]}}'   
+
+for exposing the kyverno-svc-metrics
+
+Step 5. `kubectl port-forward service/prometheus-server -n kyverno 9090:9090`
 
 And you will have your promethues server running at localhost:9090
