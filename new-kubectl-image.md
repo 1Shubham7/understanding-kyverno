@@ -17,3 +17,13 @@ Using images like apline linux as base image is better because they don't hae th
 - **BusyBox** is present in Alpine Linux that consolidates many common UNIX utilities into a single small executable.
 
 To learn more - https://overcast.blog/leveraging-alpine-images-in-kubernetes-a-guide-6245e1380513
+
+From my research and by using Trivy, this is the data I got about potential solutions:
+
+1. cgr.dev/chainguard/kubectl:latest
+   
+```
+cgr.dev/chainguard/kubectl:latest (wolfi 20230201)
+
+Total: 0 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 0, CRITICAL: 0)
+```
