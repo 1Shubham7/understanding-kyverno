@@ -35,3 +35,11 @@ alpine:latest (alpine 3.19.1)
 
 Total: 2 (UNKNOWN: 0, LOW: 2, MEDIUM: 0, HIGH: 0, CRITICAL: 0)
 ```
+
+3. bitnami/kubectl:1.28.6 (not done by me)
+
+```
+bitnami/kubectl:1.28.6 (debian 11.9)
+====================================
+Total: 147 (UNKNOWN: 0, LOW: 95, MEDIUM: 27, HIGH: 22, CRITICAL: 3)
+```
