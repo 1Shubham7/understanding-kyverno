@@ -27,3 +27,11 @@ cgr.dev/chainguard/kubectl:latest (wolfi 20230201)
 
 Total: 0 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 0, CRITICAL: 0)
 ```
+
+2. alpine:latest
+
+```
+alpine:latest (alpine 3.19.1)
+
+Total: 2 (UNKNOWN: 0, LOW: 2, MEDIUM: 0, HIGH: 0, CRITICAL: 0)
+```
