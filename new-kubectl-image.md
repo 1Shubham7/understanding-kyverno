@@ -43,3 +43,9 @@ bitnami/kubectl:1.28.6 (debian 11.9)
 ====================================
 Total: 147 (UNKNOWN: 0, LOW: 95, MEDIUM: 27, HIGH: 22, CRITICAL: 3)
 ```
+
+### Links
+
+[Alpine](https://hub.docker.com/_/alpine/tags)
+[bitnami/kubectl](https://hub.docker.com/r/bitnami/kubectl/tags)
+[chainguard/kubectl](https://images.chainguard.dev/directory/image/kubectl/versions#/)
