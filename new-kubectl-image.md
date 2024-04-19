@@ -49,3 +49,5 @@ Total: 147 (UNKNOWN: 0, LOW: 95, MEDIUM: 27, HIGH: 22, CRITICAL: 3)
 [Alpine](https://hub.docker.com/_/alpine/tags)
 [bitnami/kubectl](https://hub.docker.com/r/bitnami/kubectl/tags)
 [chainguard/kubectl](https://images.chainguard.dev/directory/image/kubectl/versions#/)
+
+// there is some issue with my wsl so push images to dockerhub using powershell.
